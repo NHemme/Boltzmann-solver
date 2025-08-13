@@ -7,3 +7,6 @@ The implementation is based on the methodology described in [arXiv:2311.17157](h
 **Some notes on the physics behind the solver:**
 
 It has been designed to determined the relic abundance of dark pions $\pi_D$ originating from an $SU(N_{C_D})$ with $SU(N_{f_D})$ quark-like fermions, specifically intended for a model that considers light rho/vector mesons $\rho_D$. Therefore, the ratio of the masses $r_m=\tfrac{m_{\rho_D}}{m_{A}}$ is an important parameter, but the code can easily be adapted to other models. The dark pions have been renamed to particle A, and the dark rho mesons to particle B.
+
+### Notebook
+I have created a notebook that takes you through how to define a model, solve the Boltzmann equation for it and plot it.
